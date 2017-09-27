@@ -1,0 +1,167 @@
+{
+  "hd": {
+    "tit": "京东秒杀",
+    "subtit": {
+      "link": "https://miaosha.jd.com",
+      "text": "总有你想不到的低价"
+    },
+    "bg": "https://misc.360buyimg.com/mtd/pc/index/2.0.0/home/images/seckill_hd.png"
+  },
+  "bd": {
+    "skitems": [
+      {
+        "img": "https://img12.360buyimg.com/n4/s130x130_jfs/t3094/81/5483884178/138825/104ea929/5872e6c5Nd9672f47.jpg",
+        "link": "https://miaosha.jd.com/#4297772",
+        "text": "诺基亚6 (Nokia6) 4GB+64GB 黑色 全网通 双卡双待 移动联通电信4G手机诺基亚6 (Nokia6) 4GB+64GB 黑色 全网通 双卡双待 移动联通电信4G手机",
+        "price": "1599.00",
+        "priceOrgin": "1699.00"
+      },
+      {
+        "img": "https://img11.360buyimg.com/n4/s130x130_jfs/t3619/81/72301080/274437/ff3193c1/57fdea57Ncf05fa2c.jpg",
+        "link": "https://miaosha.jd.com/#1385736",
+        "text": "德国 进口牛奶 欧德堡（Oldenburger）超高温处理全脂纯牛奶200ml*24盒德国 进口牛奶 欧德堡（Oldenburger）超高温处理全脂纯牛奶200ml*24盒",
+        "price": "68.00",
+        "priceOrgin": "100.00"
+      },
+      {
+        "img": "https://img10.360buyimg.com/n4/s130x130_jfs/t7960/181/1121951476/264553/5bf4e081/599a90daNd76ae402.jpg",
+        "link": "https://miaosha.jd.com/#4752515",
+        "text": "联想(Lenovo)小新潮7000 13.3英寸超轻薄窄边框笔记本电脑(i7-8550U 8G 256G PCIE MX150 2G)花火银联想(Lenovo)小新潮7000 13.3英寸超轻薄窄边框笔记本电脑(i7-8550U 8G 256G PCIE MX150 2G)花火银",
+        "price": "5998.00",
+        "priceOrgin": "6299.00"
+      },
+      {
+        "img": "https://img13.360buyimg.com/n4/s130x130_jfs/t8854/140/765112439/202811/a5bbcb6e/59ae97ccN46568e86.jpg",
+        "link": "https://miaosha.jd.com/#1768313",
+        "text": "稻香村 迎月纳福中秋月饼礼盒910g稻香村 迎月纳福中秋月饼礼盒910g",
+        "price": "79.00",
+        "priceOrgin": "258.00"
+      },
+      {
+        "img": "https://img10.360buyimg.com/n4/s130x130_jfs/t4600/341/4655925023/233349/bea4af11/59112ca3N85795e6f.jpg",
+        "link": "https://miaosha.jd.com/#2828950",
+        "text": "维达(Vinda) 抽纸 超韧3层130抽软抽*24包(小规格) 整箱销售维达(Vinda) 抽纸 超韧3层130抽软抽*24包(小规格) 整箱销售",
+        "price": "55.90",
+        "priceOrgin": "99.00"
+      },
+      {
+        "img": "https://img13.360buyimg.com/n4/s130x130_jfs/t4090/271/1477442090/368988/2bd116b0/58783f8fN1c0ae390.jpg",
+        "link": "https://miaosha.jd.com/#3814013",
+        "text": "云南白药 鸿运全家福牙膏套装 6支装 (留兰100g+薄荷100g+清新晨露100g+激爽145g+冰柠105g×2)",
+        "price": "90.90",
+        "priceOrgin": "145.00"
+      },
+      {
+        "img": "https://img13.360buyimg.com/n4/s130x130_jfs/t4402/234/1083704080/340183/d19bc2cf/58d87307N77fbc22b.jpg",
+        "link": "https://miaosha.jd.com/#1349108",
+        "text": "【京东超市】吉列剃须刀锋隐致顺手动刮胡刀套装（1刀架1刀头+4刀头）京东特供装",
+        "price": "153.00",
+        "priceOrgin": "262.00"
+      },
+      {
+        "img": "https://img11.360buyimg.com/n4/s130x130_jfs/t3385/269/1229329815/67037/a9c64e94/58201d5eNd5d38de4.jpg",
+        "link": "https://miaosha.jd.com/#3577451",
+        "text": "松下（Panasonic）灯具led智能遥控无极调光调色简约时尚客厅卧室吸顶灯HHLAZ6052明桐系列 89W",
+        "price": "998.00",
+        "priceOrgin": "2199.00"
+      },
+      {
+        "img": "https://img14.360buyimg.com/n4/s130x130_jfs/t7441/14/2855829755/54072/bb84efac/59b5e5c7Ne6d28915.jpg",
+        "link": "https://miaosha.jd.com/#5382904",
+        "text": "长虹（CHANGHONG）55D2P 55英寸32核人工智能4K超高清HDR全金属轻薄语音平板LED液晶电视机（浅金色）",
+        "price": "3588.00",
+        "priceOrgin": "3699.00"
+      },
+      {
+        "img": "https://img14.360buyimg.com/n4/s130x130_jfs/t9868/236/8961469/166736/7162921d/59c36476Nd4730dad.jpg",
+        "link": "https://miaosha.jd.com/#3796674",
+        "text": "美的（Midea）电磁炉匀火纤薄十档火力 C21-WT2112T（赠欧式汤锅+渗氮炒锅）",
+        "price": "259.00",
+        "priceOrgin": "699.00"
+      },
+      {
+        "img": "https://img14.360buyimg.com/n4/s130x130_jfs/t9433/109/1554413303/110747/37fccaaa/59bb79abN37a10daf.jpg",
+        "link": "https://miaosha.jd.com/#5289774",
+        "text": "苏蟹世家 阳澄湖大闸蟹礼券2798型 公蟹4.5两/只 母蟹3.0两/只 4对8只螃蟹 海鲜水产",
+        "price": "288.00",
+        "priceOrgin": "588.00"
+      },
+      {
+        "img": "https://img13.360buyimg.com/n4/s130x130_jfs/t7975/154/2033065509/65501/1d3adea5/59a7cc03N60231d0e.jpg",
+        "link": "https://miaosha.jd.com/#4741808",
+        "text": "爱国者（aigo）20000毫安 W200 移动电源/充电宝 LED数显 锂电芯 苹果/安卓双输入大容量 手机/平板通用 白色",
+        "price": "89.00",
+        "priceOrgin": "129.00"
+      },
+      {
+        "img": "https://img12.360buyimg.com/n4/s130x130_jfs/t5806/238/3300578752/216172/dcc11b00/593a4b8aNee04fa62.jpg",
+        "link": "https://miaosha.jd.com/#4331187",
+        "text": "Apple iMac 21.5英寸一体机（2017新款四核Core i5 处理器/8GB内存/1TB/RP555显卡/4K屏 MNDY2CH/A）",
+        "price": "9688.00",
+        "priceOrgin": "10288.00"
+      },
+      {
+        "img": "https://img12.360buyimg.com/n4/s130x130_jfs/t8182/183/968007814/434409/c45b4a84/59b20881N134c16a3.jpg",
+        "link": "https://miaosha.jd.com/#4839277",
+        "text": "真真老老中秋月饼礼盒装 感恩礼月760g/盒",
+        "price": "39.80",
+        "priceOrgin": "129.00"
+      },
+      {
+        "img": "https://img14.360buyimg.com/n4/s130x130_jfs/t5788/165/7506729268/345521/2db80342/5971d172Nbab6ff80.jpg",
+        "link": "https://miaosha.jd.com/#4512349",
+        "text": "海信（Hisense）LED60EC680US 60英寸 超高清4K HDR 人工智能 智慧语音 VIDAA4.0系统(月光银)",
+        "price": "5998.00",
+        "priceOrgin": "6699.00"
+      },
+      {
+        "img": "https://img11.360buyimg.com/n4/s130x130_jfs/t7900/297/723213851/167016/fd393aa1/5996a255Nccf2a08d.jpg",
+        "link": "https://miaosha.jd.com/#4808991",
+        "text": "惠普（HP）畅游人Pavilion 14-bf112TX 14英寸轻薄笔记本（i5-8250U 8G 256GSSD 940MX 2G独显 FHD IPS）银色惠普（HP）畅游人Pavilion 14-bf112TX 14英寸轻薄笔记本（i5-8250U 8G 256GSSD 940MX 2G独显 FHD IPS）银色",
+        "price": "5499.00",
+        "priceOrgin": "5799.00"
+      },
+      {
+        "img": "https://img12.360buyimg.com/n4/s130x130_jfs/t7792/199/3583953330/279301/8aff033d/59c21b72N4507638e.jpg",
+        "link": "https://miaosha.jd.com/#1258277",
+        "text": "酷开(coocaa)K50J 50英寸全高清智能网络液晶平板电视 酷开系统 WiFi(黑色)酷开(coocaa)K50J 50英寸全高清智能网络液晶平板电视 酷开系统 WiFi(黑色)",
+        "price": "2199.00",
+        "priceOrgin": "2699.00"
+      },
+      {
+        "img": "https://img10.360buyimg.com/n4/s130x130_jfs/t2491/302/1244226956/126706/8dfa301e/568bb462N70a3a9d8.jpg",
+        "link": "https://miaosha.jd.com/#1982585",
+        "text": "自然堂（CHANDO）凝时鲜颜洁水乳套装（洁面霜+冰肌水+乳液+凝时四件套）（化妆品套装）自然堂（CHANDO）凝时鲜颜洁水乳套装（洁面霜+冰肌水+乳液+凝时四件套）（化妆品套装）",
+        "price": "389.00",
+        "priceOrgin": "758.00"
+      },
+      {
+        "img": "https://img10.360buyimg.com/n4/s130x130_jfs/t3055/116/6393553118/352329/bb764a12/58a3f60eN0ab8c97f.jpg",
+        "link": "https://miaosha.jd.com/#4424370",
+        "text": "富士（FUJIFILM）X-T20 (XC 16-50II) 微单电套机 银色 2430万像素 XT20 翻折触摸屏 4K富士（FUJIFILM）X-T20 (XC 16-50II) 微单电套机 银色 2430万像素 XT20 翻折触摸屏 4K",
+        "price": "6456.00",
+        "priceOrgin": "6790.00"
+      },
+      {
+        "img": "https://img12.360buyimg.com/n4/s130x130_jfs/t3229/314/6863934982/144141/86bc1245/58aeb140Nde581af9.jpg",
+        "link": "https://miaosha.jd.com/#2389282",
+        "text": "小白熊 恒温调奶器 多功能冲泡奶粉机恒温暖奶器玻璃水壶 1.2L 家庭装 HL-0857小白熊 恒温调奶器 多功能冲泡奶粉机恒温暖奶器玻璃水壶 1.2L 家庭装 HL-0857",
+        "price": "279.00",
+        "priceOrgin": "349.00"
+      }
+    ],
+    "skspecial": {
+      "link": "https://miaosha.jd.com/pinpailist.html",
+      "item": [
+        {
+          "img": "http://img10.360buyimg.com/mobilecms/s180x225_jfs/t8734/16/2224122529/89832/ba773d94/59c7865bN6d5604de.jpg",
+          "link": "https://miaosha.jd.com/pinpailist.html"
+        },
+        {
+          "img": "http://img10.360buyimg.com/mobilecms/s180x225_jfs/t10822/11/160570900/49747/85c64ad7/59c7c4c6N66301c86.jpg",
+          "link": "https://miaosha.jd.com/brandlist.html"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "link": [
+            "img/list1-1.jpg",
+            "img/list1-2.jpg",
+            "img/list1-3.jpg"
+            
+        ]
+
+    },
+    {
+        "link": [
+            "img/list2-1.jpg",
+            "img/list2-2.jpg",
+            "img/list2-3.jpg"
+        ]
+    },
+    {
+        "link": [
+            "img/list3-1.jpg",
+            "img/list3-2.jpg",
+            "img/list3-3.jpg"
+        ]
+    },
+    {
+        "link": [
+            "img/list4-1.jpg",
+            "img/list4-2.jpg",
+            "img/list4-3.jpg"
+        ]
+    }
+]

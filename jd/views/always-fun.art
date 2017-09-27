@@ -1,0 +1,85 @@
+<div class="box-header">
+        <div class="box-title">
+            <h3>享品质</h3>
+        </div>
+    </div>
+    <div class="fun-body">
+        <ul class="fun-imglist">
+            <li class="fun-item" id="jd-live">
+                <div class="live-hd">
+                    <a href="">
+                        <h3>京东直播</h3>
+                        <span>更多<i class="arrow-box"></i></span>
+                    </a>
+                </div>
+                <ul class="silder-live">
+                    <li class="live-item show">
+                        <img src="./img/live-silder1.jpg" alt="">
+                        <div class="live-item-info">
+                            <h5><i class="video-icon"></i>十一假期美丽和快乐同在</h5>
+                            <p>优惠多多</p>
+                        </div>
+                    </li>
+                    <li class="live-item">
+                    <img src="./img/live-silder2.jpg" alt="">
+                    <div class="live-item-info">
+                            <h5><i class="video-icon"></i>秋冬必备时髦外套大盘点</h5>
+                            <p>那些百搭又时髦的秋冬外套</p>
+                        </div>
+                    </li>
+                    <li class="live-item">
+                    <img src="./img/live-silder3.jpg" alt="">
+                    <div class="live-item-info">
+                            <h5><i class="video-icon"></i>与美瞳行圆梦星婚之地巴厘岛</h5>
+                            <p>限时特惠10万优惠券发不停</p>
+                        </div>
+                    </li>
+                    <li class="live-item"><img src="./img/live-silder4.jpg" alt="">
+                        <div class="live-item-info">
+                            <h5><i class="video-icon"></i>南北干货大自然的礼物丨吉得利</h5>
+                            <p>限时大促全场满99减50元</p>
+                        </div>
+                    </li>
+                    <li class="live-item"><img src="./img/live-silder5.jpg" alt="">
+                        <div class="live-item-info">
+                            <h5><i class="video-icon"></i>辣妈VS超模一一分享有机机密</h5>
+                            <p>参与赢丹麦王子同款贵族奶</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="silder-live-list">
+                    <li class="silder-live-index current"></li>
+                    <li class="silder-live-index"></li>
+                    <li class="silder-live-index"></li>
+                    <li class="silder-live-index"></li>
+                    <li class="silder-live-index"></li>
+                </ul>
+                <a href="#" class="mask"></a>
+                <a href="#" class="player-control"></a>
+                <div class="live-control live-prev">
+                    <</div>
+                        <div class="live-control live-next">></div>
+            </li>
+            {{each data item index}} {{if index
+            <6}} <li class="fun-item">
+                <div class="left-funitem{{index+1}} left-funitem">
+                    <h4>{{item.title}}</h4>
+                    <p>{{item.desc}}</p>
+                </div>
+                <a href="{{item.link}}">
+                    <img src="{{item.img}}" alt="" class="Bslider-left">
+                </a>
+                </li>
+                {{else}}
+                <li class="fun-item small-fun">
+                    <div class="bottom-funitem{{index-5}} bottom-funitem">
+                        <h4>{{item.title}}</h4>
+                        <p>{{item.desc}}</p>
+                    </div>
+                    <a href="{{item.link}}">
+                        <img src="{{item.img}}" alt="" class="Bslider-left">
+                    </a>
+                </li>
+                {{/if}} {{/each}}
+        </ul>
+        </div>

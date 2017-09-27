@@ -1,0 +1,46 @@
+{{each data ele index}}
+    <div class="sorts-item">
+        <div class="sort-col1">
+            <div class="sorts-itemheader">
+                {{each ele.catePartL.channel channel index}}
+                <a href={{channel.link}}>
+                    {{channel.text}}
+                    <i class="header-arrow">></i>
+                    </a> 
+                {{/each}}
+            </div>
+            <div class="sorts-itembody">
+                {{each ele.catePartL.detail detail index}}
+                <dl class="sort-item">
+                    <dt class="big-sorts"><a href="#"><strong>{{detail.tit.text}}</strong><i class="item-arrow">></i></a></dt>
+                    <dd class="det-sorts">
+                        {{each detail.con con index}}
+                        <a href="{{con.link}}">{{con.text}}</a> {{/each}}
+                    </dd>
+                </dl>
+                {{/each}}
+            </div>
+        </div>
+        <div class="sort-col2">
+            <div class="brand-table">
+                {{each ele.catePartR.brand brand index}}
+                <div class="brand-img{{index+1}}">
+                    <a href="{{brand.link}}">
+                            <img src="{{brand.img}}" alt="">
+                    </a>
+                </div>
+                {{/each}}
+            </div>
+            <div class="brand-part">
+                {{each ele.catePartR.promo promo index}}
+                <div class="brand-img">
+                    <a href="{{promo.link}}">
+                                    <img src="{{promo.img}}" alt="">
+                            </a>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+
+    </div>
+    {{/each}}

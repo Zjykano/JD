@@ -1,0 +1,39 @@
+<div class="coupon-col2-header box-heaer">
+        <div class="fl">
+            <i class="white-box"></i>
+            <i class="hd-box"></i>
+            <h1>{{data.boxHd.title}}</h1>
+        </div>
+        <div class="fr">
+            <span><a href="{{data.boxHd.subTitLink}}" >{{data.boxHd.subtitle}}
+                        <i class="arrow-box"></i>
+                    </a></span>
+        </div>
+    </div>
+    <div class="coupon-col2-body coupon-body">
+        <ul class="news-img-silder">
+            {{each data.boxBd.item ele}}
+            <li class="news-img-item">
+                <img src="{{ele.img}}" alt="">
+                <div class="silder-news">
+                    <strong>{{ele.mine.title}}</strong>
+                    <p>{{ele.mine.desc}}&nbsp;&nbsp;<a href="{{ele.link}}">查看原文</a></p>
+                    <span><i class="seen"></i>{{ele.mine.seen}}</span>
+                </div>
+            </li>
+            {{/each}}
+        </ul>
+        <ul class="news-silder-list">
+            <li class="news-silder-index current"></li>
+            <li class="news-silder-index"></li>
+            <li class="news-silder-index"></li>
+            <li class="news-silder-index"></li>
+            <li class="news-silder-index"></li>
+        </ul>
+        <div class="news-silder-prev news-silder-control">
+            <span class="glyphicon glyphicon-menu-left"></span>
+        </div>
+        <div class="news-silder-next news-silder-control">
+            <span class="glyphicon glyphicon-menu-right"></span>
+        </div>
+    </div>

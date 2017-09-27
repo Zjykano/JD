@@ -1,0 +1,328 @@
+header{
+    height: 100px;
+}
+header .w{
+    height: 70px;
+}
+.info{
+    height: 30px;
+    background-color: #fff8f0;
+    line-height: 30px;
+    font-size: 12px;
+    color: orange;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    height: 50px;
+    width: 160px;
+    float: left;
+    margin-top: 20px;
+}
+header h1{
+    height: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+header .w>span{
+    position: absolute;
+    display: block;
+    top:  50px;
+    right: 5px;
+    height: 20px;
+    line-height: 20px;
+    color: gray;
+}
+
+header span a{
+    color: red;
+}
+.w{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+b{
+    display: inline-block;
+    height: 16px;
+    width: 20px;
+    background-size: 100% 100%;
+    background-image: url('../img/q-icon.png')
+}
+
+.icon-tips{
+    margin-top: 7px;
+    background: url('../img/icon-tips.png');
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.info a{
+    color: red;
+}
+.info p{
+    margin: 0;
+}
+
+main{
+    width: 1520px;
+    height: 475px;
+    background-color: #1064ee;
+}
+
+.banner{
+    height: 100%;
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url('../img/bc.jpg');
+}
+.login{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 360px;
+    background-color: white;
+}
+
+.login-header{
+    height: 54px;
+    display: flex;
+}
+
+.login-header>div{
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 12px 0;
+    text-align: center;
+    font-weight: 400;
+    width: 50%;
+}
+.login-header div:last-child{
+    border-left: 1px lightgray solid;
+}
+.show{
+    font-weight: bold !important;
+    color: #555;
+}
+
+.login-box{
+   padding: 20px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+.show-box{
+    width:100%;
+}
+
+.QR{
+    position: relative;
+    width: 100%;
+}
+.img-show{
+    position: relative;
+    height: 150px;
+}
+.img-show img{
+ position: absolute;
+ top: 5px;
+ width: 145px;
+ height: 145px;
+}
+.QR-img{
+    left: calc((100% - 145px)/2);
+}
+.phone-img{
+    right: 0;
+    display: none;
+}
+
+.box-info{
+    margin: 10px;
+    height: 20px;
+}
+.flex{
+    display: flex;
+}
+
+.login-box ul{
+    justify-content: center;
+    height: 20px;
+}
+.login-box ul li{
+    line-height: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+footer{
+    color: gray;
+    height: 100px;
+    font-size: 12px;
+}
+footer .w{
+    text-align: center;
+    border-top: lightgray 1px solid;
+}
+.footer-list{
+    height: 55px;
+}
+
+.footer-list>ul{
+    margin-top: 20px;
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-list>ul li{
+    height: 25px;
+    padding: 0 10px;
+    line-height: 25px;
+    border-right: 1px solid lightgray;
+}
+.box-footer{
+    height: 25px;
+}
+.box-footer li{
+    font-size: 12px;
+    color: gray;
+    position: relative;
+}
+.box-footer ul li i{
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: url('../img/qr-coagent.png');
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+}
+.box-footer ul li span{
+    padding-left: 32px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+}
+
+
+.more-quick{
+    background-position: -27px !important;
+}
+.more-safe{
+    background-position: -54px !important;
+}
+
+
+.login-footer{
+    height: 50px;
+    padding: 0 20px;
+    background-color:  #fcfcfc;
+    padding: 0 20px;
+
+}
+
+.login-footer ul{
+    height: 100%;
+    widows: calc(100% - 40px);
+}
+.login-footer ul li a{
+    display: block;
+    height: 20px;
+    margin-top: 12.5px;
+    position: relative;
+    padding-right: 5px;
+}
+
+.login-footer ul li{
+    height: 100%;
+    line-height: 50px;
+    float: left;
+    color: blue;
+}
+.login-footer ul li:last-child{
+    float: right !important;
+    color: red !important;
+}
+.qq-icon,.wx-icon{
+    width: 19px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/qq-weixin.png');
+    margin: 0 2px;
+}
+.wx-icon{
+    background-position: -20px 0;
+}
+
+.more-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url('../img/pwd-icons-new.png') -104px -75px no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.login-footer ul li:first-child a{
+    border-right: 1px solid lightgray;
+}
+
+.login-footer ul li span{
+    /* float: left; */
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    padding-left: 25px;
+}
+
+
+
+
+
+footer li:last-child{
+    border-right: none;
+    padding-right: 1px;
+}
+
+.input-group-addon{
+    width: 40px;
+}
+.wan{
+    float: right;
+}
+.input-group{
+    height: 30px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.label-item {
+    background-image: url('../img/pwd-icons-new.png')
+}
+
+.psw-item{
+    background-position: -48px 0
+}
+
+.account-login{
+    display: none;
+}
+

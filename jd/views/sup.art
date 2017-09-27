@@ -1,0 +1,48 @@
+<div class="fbt-col2-header box-heaer">
+        <div class="fl">
+            <i class="white-box"></i>
+            <i class="sup-box"></i>
+            <h1>{{data.boxHd.title}}</h1>
+
+        </div>
+        <div class="fr">
+            <span><a href="{{data.boxHd.subTitLink}}" >{{data.boxHd.subtitle}}
+                                    <i class="arrow-box"></i>
+                                </a></span>
+        </div>
+    </div>
+    <div class="fbt-col2-body fbt-body">
+        <ul class="slider-fineGoods">
+            {{each data.boxBd.item ele index}}
+            <li class="slider-fineGoods-item">
+                <div class="fine-top">
+                    <p>{{ele[0].title}}</p>
+                    <div class="fine-img flex">
+                        {{each ele[0].imgs imgt index}}
+                        <img src="{{imgt}}" alt=""> {{/each}}
+                    </div>
+                </div>
+                <div class="sup-spacer"></div>
+                <div class="fine-bottom">
+                    <p><a href="{{ele[1].link}}">{{ele[1].title}}</a></p>
+                    <div class="fine-img">
+                        {{each ele[1].imgs imgb index}}
+                        <img src="{{imgb}}" alt=""> {{/each}}
+                    </div>
+                </div>
+            </li>
+            {{/each}}
+        </ul>
+        <ul class="fine-silder-list flex">
+                        <li class="fine-silder-index current"></li>
+                        <li class="fine-silder-index"></li>
+                        <li class="fine-silder-index"></li>
+                    </ul>
+                    <div class="finesilder-prev finesilder-control">
+                        <span class="glyphicon glyphicon-menu-left"></span>
+                    </div>
+                    <div class="finesilder-next finesilder-control">
+                        <span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+
+    </div>

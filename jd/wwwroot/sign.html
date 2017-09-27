@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="zjy">
+    <title></title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/sign.css">
+    <link rel="stylesheet" href="./css/base.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="w">
+            <img src="./img/logo-top.png" alt="">
+            <h1>欢迎登录</h1>
+            <span><b></b><a href="#">登录界面调查问卷</a></span>
+        </div>
+        <div class="info">
+            <i class="icon-tips"></i>
+            <p>依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版<a href="#">《京东隐私政策》</a>已上线，将更有利于保护您的个人隐私。</p>
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+            <div class="login">
+                <div class="login-header">
+                    <div class="show QR-login">扫码登录</div>
+                    <div class="account">账号登录</div>
+                </div>
+                <div class="login-box">
+                    <div class="QR show-box">
+                        <div class="img-show">
+                            <img src="./img/show.png" alt="" class="QR-img">
+                            <img src="./img/phone-orange.png" alt="" class="phone-img">
+                        </div>
+                        <div class="box-info">
+                            <ul class="flex">
+                                <li><a href="#">打开手机京东</a></li>
+                                <li>扫描二维码</li>
+                            </ul>
+                        </div>
+                        <div class="box-footer">
+                            <ul class="flex">
+                                <li><i class="on-input"></i><span>免输入</span></li>
+                                <li><i class="more-quick"></i><span>更快</span></li>
+                                <li><i class="more-safe"></i><span>更安全</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="account-login">
+                        <form action="/api/sign">
+                            <div class="input-group">
+                                <span class="input-group-addon label-item user-item"></span>
+                                <input type="text" class="form-control" placeholder="邮箱/用户名/已注册手机" name="userName" required>
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon label-item psw-item"></span>
+                                <input type="text" class="form-control" placeholder="请输入密码" name="psw" required>
+                            </div>
+                            <div class="input-group">
+                                <a href="#" class="wan">忘记密码</a>
+                            </div>
+                            <div class="input-group">
+                                <button type="submit" class="btn btn-block btn-danger">登录</button>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+                <div class="login-footer">
+                    <ul>
+                        <li><a href="#">
+                                <b class="qq-icon"></b>
+                                <span>QQ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                    <b class="wx-icon"></b>
+                                    <span>微信</span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="/register.html">
+                                    <b class="more-icon"></b>
+                                    <span>立即注册</span>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="w">
+            <div class="footer-list">
+                <ul>
+                    <li>关于我们</li>
+                    <li>联系我们</li>
+                    <li>人才招聘</li>
+                    <li>商家入驻</li>
+                    <li>广告服务</li>
+                    <li>手机京东</li>
+                    <li>友情链接</li>
+                    <li>销售联盟</li>
+                    <li>京东社区</li>
+                    <li>京东公益</li>
+                    <li>English Site</li>
+                </ul>
+            </div>
+            <div>
+                Copyright©2004-2016 京东JD.com 版权所有
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $('.QR-img').hover(function () {
+            $(this).stop().animate({
+                left: 0
+            }, 200, function () {
+                $('.phone-img').show()
+            })
+        }, function () {
+            $('.phone-img').hide()
+            $(this).stop().animate({
+                left: 87.5
+            }, 200)
+        })
+
+        $('.QR-login').click(function(){
+            $(this).addClass('show').siblings().removeClass('show')
+            $('.QR').show().siblings().hide();
+        })
+
+        $('.account').click(function(){
+            $(this).addClass('show').siblings().removeClass('show')
+            $('.account-login').show().siblings().hide();
+        })
+
+        $('form').submit(function(e){
+            e.preventDefault()
+            $.post('/api/sign',$(this).serialize(),(data)=>{
+                if(data.code == 'success'){
+                    location.href ='/'
+                }
+                else{
+                    alert(data.message)
+                }
+            })
+        }
+    )
+    </script>
+</body>
+
+</html>

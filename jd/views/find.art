@@ -1,0 +1,24 @@
+<div class="fbt-col1-header box-heaer">
+        <div class="fl">
+            <i class="white-box"></i>
+            <i class="index-box"></i>
+            <h1>{{data.boxHd.title}}</h1>
+        </div>
+        <div class="fr">
+            <span><a href="{{data.boxHd.subTitLink}}" >{{data.boxHd.subtitle}}
+                            <i class="arrow-box"></i>
+                            </a></span>
+        </div>
+    </div>
+    <div class="fbt-col1-body fbt-body">
+        <ul class="find-list flex">
+            {{each data.boxBd.item ele index}}
+            <li class="find-item{{index+1}}">
+                <a href="{{ele.link}}">
+                    <p class="find-text">{{ele.text}}</p>
+                    <img src="{{ele.img}}" alt="" class="find-img slider-left">
+                </a>
+            </li>
+            {{/each}}
+        </ul>
+    </div>

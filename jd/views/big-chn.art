@@ -1,0 +1,81 @@
+<div class="chn-colbig">
+            <div class="chn-header">
+                <h3>{{data.title}}</h3>
+                <div class="qr-area">
+                    <img src="./img/pt_qrcode@1x.png" alt="">
+                    <div class="qr-con">
+                <i class="arrow-top"></i>
+                <img src="./img/qrArea.png" alt="">
+                <p>扫码进入手机版</p>
+        </div>
+                </div>
+                <div class="tag-right">
+                    {{each data.tags a n}}
+                    <a href="{{a.link}}" class="pt-item">{{a.text}}</a> {{/each}}
+                </div>
+            </div>
+    </div>
+    <div class="chn-bigbody">
+        {{each data.body body index}}
+            <div class="chn-body">
+                <div class="left-big">
+                    <a href="{{body.cover.link}}">
+                                        <img src="{{body.cover.img}}" alt="" class="Bslider-left">
+                                    </a>
+                </div>
+                <div class="table-right">
+                    <table>
+                        <tr>
+                            <td class="td-item1">
+                                <a href="{{body.pbi[0].link}}">
+                                        <p class="cnh-title">{{body.pbi[0].title}}</p>
+                                        <p class="cnh-info">{{body.pbi[0].promo}}</p>
+                                    <img src="{{body.pbi[0].img}}" alt="" class="slider-left">
+                                </a>
+                            </td>
+                            <td class="td-item2">
+                                <a href="{{body.pbi[1].link}}">
+                                        <p class="cnh-title">{{body.pbi[1].title}}</p>
+                                        <p class="cnh-info">{{body.pbi[1].promo}}</p>
+                                    <img src="{{body.pbi[1].img}}" alt="" class="slider-left">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-item3">
+                                <a href="{{body.pbi[2].link}}">
+                                        <p class="cnh-title">{{body.pbi[2].title}}</p>
+                                        <p class="cnh-info">{{body.pbi[2].promo}}</p>
+                                    <img src="{{body.pbi[2].img}}" alt="" class="slider-left">
+                                </a>
+                            </td>
+                            <td class="td-item4">
+                                <a href="{{body.pbi[3].link}}">
+                                        <p class="cnh-title">{{body.pbi[3].title}}</p>
+                                        <p class="cnh-info">{{body.pbi[3].promo}}</p>
+                                    <img src="{{body.pbi[3].img}}" alt="" class="slider-left">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="pt-more">
+                    <ul>
+                        {{each body.more img index}}
+                        <li><a href="{{img.link}}"><img src="{{img.img}}" alt="" class="Bslider-left"></a></li>
+                        {{/each}}
+
+                    </ul>
+                </div>
+                <div class="pt-brand">
+                    <ul>
+                        {{each data.foot foot f}} {{if f
+                        <6}} <li><a href="{{foot.link}}"><img src="{{foot.img}}" alt="" class="chnbrand-img"></a></li>
+                            {{/if}} {{/each}}
+                    </ul>
+                </div>
+            </div>
+
+        {{/each}}
+    </div>
+

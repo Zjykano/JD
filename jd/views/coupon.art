@@ -1,0 +1,27 @@
+<div class="coupon-col1-header box-heaer">
+        <div class="fl">
+            <i class="white-box"></i>
+            <i class="hd-box"></i>
+            <h1>{{data.boxHd.title}}</h1>
+        </div>
+        <div class="fr">
+            <span><a href="{{data.boxHd.subTitLink}}" >{{data.boxHd.subtitle}}
+                        <i class="arrow-box"></i>
+                    </a></span>
+        </div>
+    </div>
+    <div class="coupon-bodycol1 coupon-body">
+        <ul>
+            {{each data.boxBd.item ele}}
+            <li class="coupon-box">
+                <div class="coupon-info">
+                    <p class="coupon-price red-text"><small>￥</small><strong>{{ele.coupon.price}}</strong></p>
+                    <p class="coupon-dec red-text">{{ele.coupon.desc}}</p>
+                    <p class="coupon-det">{{ele.coupon.limit}}</p>
+                    <p class="coupon-button">{{ele.coupon.more}}</p>
+                </div>
+                <img src="{{ele.img}}" alt="" class="silder-right">
+            </li>
+            {{/each}}
+        </ul>
+    </div>

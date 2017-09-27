@@ -1,0 +1,7 @@
+<div class="w">
+                <ul class="gd-list">
+                    {{each data.link item index}}
+                    <li><a href="#"><img src="{{item}}" alt=""></a></li>
+                    {{/each}}
+                </ul>
+            </div>

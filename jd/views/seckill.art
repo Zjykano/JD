@@ -1,0 +1,82 @@
+<div class="w">
+        <div class="seckill-header box-heaer">
+            <div class="fl">
+                <i class="index-box"></i>
+                <i class="icon-box"></i>
+                <h1>{{data.hd.tit}}</h1>
+                <a href="{{data.hd.subtit.link}}" class="">{{data.hd.subtit.text}}
+                            <i class="arrow-box"></i>
+                            </a>
+            </div>
+            <div class="fr">
+                <span>当前场次</span>
+                <div class="cd-model">
+                    <div class="cd-hours cd">00</div>
+                    <div class="split">:</div>
+                    <div class="cd-minute cd">00</div>
+                    <div class="split">:</div>
+                    <div class="cd-second cd">00</div>
+                </div>
+                <span>后结束采购</span>
+            </div>
+        </div>
+        <div class="seckill-box flex">
+            <div class="seckill-goods">
+                <ul>
+                    {{each data.bd.skitems ele num}} {{if num>14}}
+                    <li class="show-seckill">
+                        <div class="goods-box">
+                            <a href="{{ele.link}}"><img class='up-img' src="{{ele.img}}" alt=""></a><span class="bottom-shadow"></span>
+                            <p class="goods-info"><a href="#">{{ele.text.slice(0,25)}}"</a></p>
+                        </div>
+                        <p><span class="price">￥{{ele.price}}</span>
+                            <s>￥{{ele.priceOrgin}}</s>
+                        </p>
+                    </li>
+                    {{/if}} {{/each}} {{each data.bd.skitems item s}}
+                    <li class="show-seckill">
+                        <div class="goods-box">
+                            <a href="{{item.link}}"><img class='up-img' src="{{item.img}}" alt=""></a><span class="bottom-shadow"></span>
+                            <p class="goods-info"><a href="#">{{item.text.slice(0,25)}}"</a></p>
+                        </div>
+                        <p><span class="price">￥{{item.price}}</span>
+                            <s>￥{{item.priceOrgin}}</s>
+                        </p>
+                    </li>
+                    {{/each}} {{each data.bd.skitems x index}} {{if index
+                    <5}} <li class="show-seckill">
+                        <div class="goods-box">
+                            <a href="{{x.link}}"><img class='up-img' src="{{x.img}}" alt=""></a><span class="bottom-shadow"></span>
+                            <p class="goods-info"><a href="#">{{x.text.slice(0,25)}}"</a></p>
+                        </div>
+                        <p><span class="price">￥{{x.price}}</span>
+                            <s>￥{{x.priceOrgin}}</s>
+                        </p>
+                        </li>
+                        {{/if}} {{/each}}
+                </ul>
+                <div class="click-prev click-control">
+                        <span class="glyphicon glyphicon-menu-left"></span>
+                    </div>
+                    <div class="click-next click-control">
+                        <span class="glyphicon glyphicon-menu-right"></span>
+                    </div>
+            </div>
+            <div class="seckil-recommend">
+                    <ul class="few-silder-list">
+                        {{each data.bd.skspecial.item m n}}
+                        <li class="few-silder-item">
+                            <a href="{{m.link}}">
+                                <img src="{{m.img}}" alt="">
+                            </a>
+                        </li>
+                        {{/each}}
+                        
+                    </ul>
+                    <ul class="few-slider-index flex">
+                        <li class="slider-index-item current"></li>
+                        <li class="slider-index-item"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>

@@ -1,0 +1,19 @@
+ <div class="box-header">
+                <div class="box-title">
+                    <h3>还没逛够</h3>
+                </div>
+            </div>
+            <div class="more-box">
+                <ul class="more-list">
+                    {{each data item index}}
+                    <li class="more-item">
+                        <a href="{{item.link}}">
+                            <img src="{{item.img}}" alt="" title="{{item.title}}">
+                            <p class="more-dec">{{item.info.slice(0,25)}}</p>
+                            <p class="s-price">{{item.price}}</p>
+                        </a>
+                    </li>
+                    {{/each}}
+                    
+                </ul>
+            </div>

@@ -1,0 +1,36 @@
+ <div class="fbt-col3-header box-heaer">
+        <div class="fl">
+            <i class="white-box"></i>
+            <i class="index-box"></i>
+            <h1>{{data.boxHd.title}}</h1>
+
+        </div>
+        <div class="fr">
+            <span><a href="{{data.boxHd.subTitLink}}"></a>{{data.boxHd.subtitle}}
+                                    <i class="arrow-box"></i>
+                                    </a></span>
+        </div>
+    </div>
+    <div class="fbt-col3-body fbt-body">
+        <div class="rank-list">
+            <ul>
+                {{each data.boxBd.title title index}}
+                <li class="rank-sort"><a href="{{title.link}}">{{title.text}}</a></li>
+                {{/each}}
+            </ul>
+        </div>
+        <div class="rangk-slider-block"></div>
+        <div class="rank-show">
+            {{each data.boxBd.item ul index}}
+            <ul>
+                {{each ul li num}}
+                <li class="rank-show-item{{num+1}}  rank-show-item">
+                   <div class="top-rank{{num+1}} top-rank">{{num+1}}</div>
+                    <img src="{{li.img}}" alt="">
+                    <p><a href="{{li.link}}">{{li.text.slice(0,20)}}</a></p>
+                </li>
+                {{/each]}}
+            </ul>
+            {{/each}}
+        </div>
+    </div>
